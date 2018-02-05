@@ -8,7 +8,7 @@ import { CompanyService } from '../company.service';
   styleUrls: ['./company-edit.component.css']
 })
 export class CompanyEditComponent implements OnInit {
-    company$: FirebaseObjectObservable<any>;
+  company$: FirebaseObjectObservable<any>;
 
   constructor(private companyService: CompanyService) {
      this.company$ = this.companyService.company$;

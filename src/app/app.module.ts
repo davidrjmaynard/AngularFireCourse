@@ -20,10 +20,12 @@ import {
   MdProgressBarModule,
   MdSelectModule
 } from '@angular/material';
+import { CompanyComponent } from 'app/company/company/company.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CompanyComponent,
     CompanyEditComponent
   ],
   imports: [
