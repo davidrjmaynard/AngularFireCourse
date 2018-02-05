@@ -21,12 +21,14 @@ import {
   MdSelectModule
 } from '@angular/material';
 import { CompanyComponent } from 'app/company/company/company.component';
+import { CompanyListComponent } from './company/company-list/company-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompanyComponent,
-    CompanyEditComponent
+    CompanyEditComponent,
+    CompanyListComponent
   ],
   imports: [
     BrowserModule,
